@@ -1,5 +1,5 @@
-# limbonia
-This repository contains all Limbonia code that hasn't been / can't be broken out into sub-projects
+# limbonia-result
+This repository contains Limbonia the result interface. trait and Collection object
 
 ## TODO
 Write out the rest of the documentation...
