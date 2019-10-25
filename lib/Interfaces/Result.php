@@ -99,7 +99,7 @@ interface Result
    *
    * @note This is an implementation detail of the SeekableIterator Interface
    *
-   * @return type
+   * @return array
    */
   public function current();
 
@@ -133,7 +133,7 @@ interface Result
    *
    * @note This is an implementation detail of the SeekableIterator Interface
    *
-   * @return type
+   * @return boolean
    */
   public function valid();
 }
