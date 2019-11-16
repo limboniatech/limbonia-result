@@ -2,9 +2,10 @@
 namespace Limbonia\Result;
 
 /**
- * Limbonia Database Result Class
+ * Limbonia Collection Class
  *
- * This is an extension to PHP's PDOStatement system for accessing database results
+ * This is a lite wrapper around arrays to allow interaction with
+ * \Limbonia\Interfaces\Result based code.
  *
  * @author Lonnie Blansett <lonnie@limbonia.tech>
  * @package Limbonia
