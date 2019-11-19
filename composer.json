@@ -11,12 +11,18 @@
     ],
     "require": {
         "php": "^7.2",
-        "limboniatech/limbonia-loader": "^1.0.3"
+        "limboniatech/limbonia-loader": "^1"
     },
     "autoload": {
         "psr-4": {
             "Limbonia\\": "lib/"
         },
         "files": ["autoloader.php"]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8"
+    },
+    "scripts": {
+        "tests": "@php vendor/phpunit/phpunit/phpunit"
     }
 }
