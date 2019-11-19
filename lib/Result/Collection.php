@@ -31,13 +31,6 @@ class Collection implements \Limbonia\Interfaces\Result, \ArrayAccess, \Countabl
   {
     $this->aData = array_values($aData);
     $this->iRowCount = \count($this->aData);
-
-    //if the data is an array of arrays
-    if (isset($this->aData[0]) && is_array($this->aData[0]))
-    {
-      //then the fields are the keys of the sub rows
-      $this->aFields = array_keys($this->aData[0]);
-    }
   }
 
   /**

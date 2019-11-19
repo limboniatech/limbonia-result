@@ -122,13 +122,13 @@ trait Result
    * @note This is an implementation detail of the SeekableIterator Interface
    *
    * @param mixed $iRow
-   * @throws OutOfBoundsException
+   * @throws \OutOfBoundsException
    */
   public function seek($iRow)
   {
     if (!$this->offsetExists($iRow))
     {
-      throw new OutOfBoundsException("Invalid seek position ($iRow)");
+      throw new \OutOfBoundsException("Invalid seek position ($iRow)");
     }
 
     $this->iCurrentRow = $iRow;
